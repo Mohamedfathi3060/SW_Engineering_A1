@@ -4,6 +4,8 @@ public class XO_Player extends Player{
     Scanner input = new Scanner(System.in);
     XO_Player(String name, char symbol) {
         super(name, symbol);
+        this.name = name;
+        this.symbol = symbol;
     }
 
     @Override
@@ -16,7 +18,7 @@ public class XO_Player extends Player{
 
     @Override
     char get_symbol() {
-        return this.symbol;
+        return symbol;
     }
 
     @Override

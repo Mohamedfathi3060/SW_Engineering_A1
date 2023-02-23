@@ -1,6 +1,3 @@
-import java.awt.*;
-
-// This class represents a player with a name and symbol to put on board
 public abstract class Player {
     protected String name;
     protected char symbol;
